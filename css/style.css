@@ -1,0 +1,246 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background:#02012c ;
+    color:#fff ;
+}
+.topbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+}
+.topbar >.logo{
+   font-size: 18px; 
+   font-weight: bold;
+   align-items: center;
+   justify-content: center;
+}
+.topbar >.logo >img{
+    top: 25px;
+    width: 20px;
+}
+.topbar >.units >button{
+    display: flex;
+    background: #262540;
+    color: #fff;
+    gap: 5px;
+    border: none;
+}
+
+.title >h2{
+    text-align: center;
+    color: #fff;
+    font-family: Bricolage Georgia, 'Times New Roman', Times, serif;
+    font-weight: 700;
+    font-style: bold;
+    font-size: 40px;
+    padding: 10px;
+}
+.search-box{
+    position: relative;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 20px;
+    
+}
+.search-box >input{
+    background: #262540;
+    border: none;
+    margin: 0 auto;
+    padding: 10px 20px;
+    transition: .3s;
+    border-radius: 5px;
+    
+}
+.search-box >.btn{
+    padding: 10px 15px;
+    background: #4658d9;
+    color: #fff;
+    border: none;
+    transform: translate(5%);
+    border-radius: 5px;
+    transition: .3s;
+}
+.main{
+    width:1216px; 
+    height: 693px;
+    display: flex;
+    gap: 25px;
+    
+    margin: 20px;
+
+}
+.main >.left{
+    flex: 2; 
+    width: 800px;
+    height: 693px;
+    
+}
+
+.main >.right{
+    flex: 1; 
+    width: 384px;
+    height: 693px;
+    background: #262540;
+    border-radius: 20px;
+    padding: 20px ;
+}
+.main >.left >.left-1{
+    width: 800px;
+    height: 286px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    display: flex;
+    background: #4658d9;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+}
+
+.main >.left >.left-2{
+    display: flex;
+    width: 800px;
+    top: 1px;
+    gap: 10px;
+    margin-bottom: 10px;
+    
+    
+}
+.main >.left >.left-2 >.feels{
+    flex: 1;
+    width: 182px;
+    height: 118px;
+    background: #262540;
+    border: 1px solid #02012c;
+    padding: 20px 40px 20px 20px;
+      border-radius: 5px;
+}
+.main >.left >.left-2 >.feels >ul{
+    list-style: none;
+} 
+.main >.left >.left-2 >.feels >ul >li >a{
+    text-decoration: none;
+    color: #d4d3d9;
+}
+.main >.left >.left-2 >.humidity{
+    flex: 1;
+    width: 182px;
+    height: 118px;
+    background: #262540;
+    border: 1px solid #02012c;
+    gap: 3px;
+    padding: 5px;
+    border-radius: 5px;
+    padding: 20px 40px 20px 20px;
+}
+.main >.left >.left-2 >.humidity >ul{
+    list-style: none;
+}
+.main >.left >.left-2 >.humidity >ul >li >a{
+    text-decoration: none;
+    color: #d4d3d9;
+}
+.main >.left >.left-2 >.wind{
+    flex: 1;
+    width: 182px;
+    height: 118px;
+    background: #262540;
+    border: 1px solid #02012c;
+    gap: 3px;
+    padding: 5px;
+    border-radius: 5px;
+    padding: 20px 40px 20px 20px;  
+}
+.main >.left >.left-2 >.wind >ul{
+    list-style: none;
+    
+}
+.main >.left >.left-2 >.wind >ul >li >a{
+    text-decoration: none;
+    color: #d4d3d9;
+    
+}
+.main >.left >.left-2 >.pre{
+    flex: 1;
+    width: 182px;
+    height: 118px;
+    background: #262540;
+    border: 1px solid #02012c;
+    gap: 3px;
+    padding: 5px;
+    border-radius: 5px;
+    padding: 20px 40px 20px 20px;  
+
+
+}
+.main >.left >.left-2 >.pre>ul{
+    list-style: none;
+}
+.main >.left >.left-2 >.pre >ul >li >a{
+    text-decoration: none;
+    color: #d4d3d9;
+}
+.main >.left >.left-3{
+    width: 100%;
+    top: 20px;
+    align-items: start;
+    
+}
+.main >.left >.left-3 > p{
+    padding: 10px 0px;
+}
+.main >.left >.left-3 > .day {
+    display: flex;
+    justify-content: space-between;
+    bottom: 0;
+}
+.main >.left >.left-3 > .day >img{
+    justify-content: space-between;
+    margin: 15px;
+    align-items: start;
+    bottom: 0;
+}
+.main >.right >.right-upper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.main >.right >.right-lower {
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
